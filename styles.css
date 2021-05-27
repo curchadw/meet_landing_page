@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+body{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    width: 100%;
+    align-items: center;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+.hero_image{
+    width: 375px;
+    height: 300px
+}
+
+.mid_area{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.area{
+    display: flex;
+    flex-direction: column;
+}
+
+.area > p{
+    width: 400px;
+}
+
+.header{
+    display: flex;
+    margin: 30px 0;
+    text-align: center;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.logo{
+    width: 75px;
+    height: 20px;
+    margin: 20px auto 120px;
+}
+
+.h_btn{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.pri_btn{
+    background-color: #4D96A9;
+    color: whitesmoke
+}
+
+.sec_btn{
+    background-color: #855FB1;
+    color: whitesmoke;
+}
+
+.h_btn > button {
+    margin: 20px 10px;
+}
+
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px 20px;
+    border-radius: 30px;
+}
+
+.main_images{
+    margin-top: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+.main_images > img{
+    height: 200px;
+    width: 200px;
+    margin: 2px 40px;
+}
+
+.above_footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 75px auto;
+
+}
+
+.above_footer > p{
+    width: 400px;
+}
+
+.pri_text{
+    color: #4D96A9;
+}
+
+.footer{
+    background-image:
+    linear-gradient(to bottom, rgba(77, 151, 169, 0.63), rgba(77, 151, 169, 0.664)),
+    url('assets/desktop/image-footer.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+    align-items: center;
+    color: whitesmoke
+}
+
+
+/* #4D96A9
+#855FB1 */
