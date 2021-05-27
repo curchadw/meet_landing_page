@@ -2,6 +2,7 @@
 
 body{
     margin: 0;
+    max-width: 1500px;
 }
 
 .container{
@@ -9,6 +10,7 @@ body{
     flex-direction: column;
     background-color: aliceblue;
     width: 100%;
+    max-width: 1500px;
     align-items: center;
     font-family: "Red Hat Display", sans-serif;
 }
